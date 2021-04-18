@@ -47,11 +47,21 @@ In Jupyter notebook, the correlation between the variables was calculated seekin
 As a result, it was possible to notice that time since release and metacritic score were the two variables which have some correlation (although not strong). Besides that, the only genre that showed a consistent correlation with prices and discounts was the Indie genre.
 
 Taking it into account, the main analysis made in Tableau were:
-- 
 
+- How maximum discount varies with the time since release, metacritic score and ratings counter;
+- How the maximum and minimum prices vary with the time since release, metacritic score;
+- What is the relationship between the prices and the game being or not indie
+- What is the average discount that the games had in the last year;
+- How many times a game is on sale during a year and how much time it spend on sale;
 
 # Results
 
-All results and conclusions can be accessed on [Tableau](https://public.tableau.com/profile/leonardo.prata.maciel#!/vizhome/Shark_attack/TheDangerofSharkAttacks)
+All results and details can be accessed on [Tableau](https://public.tableau.com/profile/leonardo.prata.maciel#!/vizhome/GameSale_v4/Histria1?publish=yes)
 
 # Conclusions
+
+- The most important variable when talking about sales and prices is the time since release, the older the game is, the higher is the chance of having more discounts.
+- However, if the game has been released in less than 2 years, the metacritic score is also a relevant variable. If the public's reception was not good, it increases the chance of a sale; and the opposite is also true.
+- Indie game, in general, are much cheaper than non-indie games
+- It is common to a game to enter several times on sale during the year. They stay on sale from 22% to 55% of the year (depending on how old is the game)
+
