@@ -1,0 +1,22 @@
+import pandas as pd
+import rawgpy
+import streamlit as st
+
+st.title("Game Recommendation")
+st.write('This is a platform that suggests games based on the one input by the user')
+
+user_input = st.text_input("Game Title", "No game")
+rawg = rawgpy.RAWG("User-Agent, this should identify your app")
+results=rawg.search(user_input)
+slug=results[0].slug
+suggestions=pd.json_normalize(list(rawg.game_suggestions(slug))[0:3])
+
+# Suggestion X:
+# Name:
+# Background image
+# Short description
+# Genres
+# Released
+# Metacritic
+# Parent platforms
+# Playtime
