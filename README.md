@@ -64,3 +64,7 @@ All results and details can be accessed on [Tableau](https://public.tableau.com/
 - However, if the game has been released in less than 2 years, the metacritic score is also a relevant variable. If the public's reception was not good, it increases the chance of a sale; and the opposite is also true.
 - Indie game, in general, are much cheaper than non-indie games
 - It is common to a game to enter several times on sale during the year. They stay on sale from 22% to 55% of the year (depending on how old is the game)
+
+# Main Files
+[Jupyter Notebook](https://github.com/Leoprma/GameSales/blob/main/Final_Project_Game_Sale.ipynb)
+[Recommendation system](https://github.com/Leoprma/GameSales/blob/main/Game_recommendation.py)
